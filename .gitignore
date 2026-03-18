@@ -1,0 +1,19 @@
+# Arduino IDE
+build/
+*.ino.hex
+*.ino.bin
+*.ino.elf
+*.ino.map
+*.ino.lst
+
+# VS Code / Arduino extension
+.vscode/
+.vs/
+
+# macOS
+.DS_Store
+
+# Misc
+*.old
+*.bak
+*~
