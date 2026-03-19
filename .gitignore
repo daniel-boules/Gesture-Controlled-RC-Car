@@ -1,4 +1,29 @@
-# Arduino IDE
+# ========================
+# OS Generated Files
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+__MACOSX/
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================
+# Arduino Build Output
+# ========================
 build/
 *.ino.hex
 *.ino.bin
@@ -6,14 +31,29 @@ build/
 *.ino.map
 *.ino.lst
 
-# VS Code / Arduino extension
-.vscode/
-.vs/
-
-# macOS
-.DS_Store
-
-# Misc
-*.old
+# ========================
+# Logs & Temporary
+# ========================
+*.log
 *.bak
-*~
+*.old
+*.tmp
+
+# ========================
+# Serial / Debug Captures
+# ========================
+*.csv
+*.txt
+
+# ========================
+# Python (arduino-cli scripts)
+# ========================
+__pycache__/
+*.pyc
+
+# ========================
+# Archives
+# ========================
+*.zip
+*.tar.gz
+*.rar
